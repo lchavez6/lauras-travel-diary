@@ -1785,6 +1785,8 @@ body.is-preload #footer {
   opacity: 0;
 }
 
+/* images custom styling */
+
 .two-images-container {
   overflow: hidden;
   display: flex;
@@ -1813,6 +1815,14 @@ body.is-preload #footer {
   object-fit: cover;
   max-height: 250px;
 }
+
+.object-center img {
+  object-position: center;
+}
+.object-top img {
+  object-position: top;
+}
+
 @media only screen and (max-width: 600px) {
   .two-images-container {
     flex-direction: column;
