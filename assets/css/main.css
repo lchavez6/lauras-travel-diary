@@ -1769,7 +1769,7 @@ body.is-preload #header .content .inner {
   text-transform: uppercase;
 }
 
-body.is-article-visible #footer {
+/* body.is-article-visible #footer {
   -moz-transform: scale(0.95);
   -webkit-transform: scale(0.95);
   -ms-transform: scale(0.95);
@@ -1779,11 +1779,11 @@ body.is-article-visible #footer {
   -ms-filter: blur(0.1rem);
   filter: blur(0.1rem);
   opacity: 0;
-}
+} */
 
-body.is-preload #footer {
+/* body.is-preload #footer {
   opacity: 0;
-}
+} */
 
 /* images custom styling */
 
@@ -1832,4 +1832,17 @@ body.is-preload #footer {
     width: 100%;
     max-height: 300px;
   }
+}
+
+#footer-section {
+  margin-top: 20px;
+}
+
+#underline {
+  text-decoration: underline;
+}
+.mx-auto {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
 }
